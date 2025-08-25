@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    background-color: white;
+    display: inline-block;
+    height: 1060px;
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    border: black 2px;
+}
+
+nav {
+    display: flex;
+    transition: all;
+position: relative;
+}
+
+nav h1 {
+    padding-left: 30px;
+    font-weight: 50px;
+    padding-top: 20px;
+    color: rgb(58, 58, 255);
+    font-size: 40px;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+   padding: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+nav a:hover {
+    color: rgb(58, 58, 255);
+}
+
+#a1 {
+    margin-left: 100px;
+}
+
+main {
+    background-color: rgb(58, 58, 255);
+    height: 400px;
+    padding-top: 25px;
+    transition: all;
+    transition: ease;
+    transition-duration: 1s;
+
+}
+
+main h1 {
+    color: white;
+    font-size: 70px;
+    padding-top: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+main p {
+    color: white;
+    font-size: large;
+
+}
+
+#h1 {
+    color: black;
+}
+
+main button {
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+main button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+main button:active {
+    background-color: blue;
+}
+
+#box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.boxx {
+    width: 240px;
+    height: 240px;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    background: #ffffff;
+    /* white bg */
+    border: 2px solid #000000;
+    /* light gray border */
+    border-radius: 10px;
+}
+
+.fa-solid {
+    padding-top: 5px;
+}
+
+.boxx:hover {
+    transform: scale(1.1);
+}
+
+.boxy {
+      width: 240px;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    background: #ffffff;
+    /* white bg */
+    border: 2px solid #000000;
+    /* light gray border */
+    border-radius: 10px;
+}
+
+.boxy:hover {
+    transform: scale(1.1);
+}
+
+
+.boxz {
+   width: 240px;
+    height: 240px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    background: #ffffff;
+    /* white bg */
+    border: 2px solid #000000;
+    /* light gray border */
+    border-radius: 10px;
+}
+
+.boxz:hover {
+    transform: scale(1.1);
+}
+
+
+
+.boxx p {
+    color: black;
+    padding: 5px;
+}
+
+.boxy p {
+    color: black;
+    padding: 5px;
+}
+
+.boxz p {
+    color: black;
+    padding: 5px;
+}
+#about{
+    background-color: #ffffff;
+}
+
+#box h3 {
+    margin-top: px;
+}
+
+#about h1 {
+    color: black;
+    padding-top: 100px;
+}
+
+#about p {
+    color: black;
+    font-size: 25px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-img {
+    flex: 1;
+    text-align: right;
+}
+
+.about-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+#contact {
+    background-color: rgb(27, 25, 25);
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+#contact label{
+    border-radius: 10px;
+    color: white;
+    
+}
+
+#contact h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+#name {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;   
+    padding-left: 50px;
+}
+
+#email {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+      
+}
+
+#message {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 50px;      
+}
+
+#submit {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-left: 5px;
+}
